@@ -128,7 +128,7 @@ def main():
     global app
     global project_name
     load_model()
-    open_browser()
+    #open_browser()
     app.layout = create_app_ui()
     app.title = project_name
     app.run_server()
